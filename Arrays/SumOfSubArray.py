@@ -19,5 +19,6 @@ def max_subArray(arr):
     print("Maximum Sum of sub array:", max_sum)
 
 ar = [1,-2,3,-1,2]
+ar = [-3,8,-2,4,-5,6]
 #naive_sub(ar)
 max_subArray(ar)
