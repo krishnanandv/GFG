@@ -21,6 +21,6 @@ def first_occ(arr, low,high, x):
 
 ar = [1,1,10,10,10,20,20,40]
 elem=20
-#print(ind_ocur(ar,elem))
+print(ind_ocur(ar,elem))
 hi = len(ar)
 print(first_occ(ar,0,8,10))
