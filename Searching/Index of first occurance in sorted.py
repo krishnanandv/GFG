@@ -5,6 +5,7 @@ def ind_ocur(arr, elem):
             return i
     return -1
 
+
 def first_occ(arr, low,high, x):
     if low > high:
         return -1
