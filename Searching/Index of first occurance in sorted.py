@@ -1,4 +1,5 @@
 
+#Naive Solution
 def ind_ocur(arr, elem):
     for i in range(len(arr)):
         if elem == arr[i]:
