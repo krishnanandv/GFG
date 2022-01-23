@@ -12,7 +12,7 @@ def last_occur(arr, x):
                 return mid
             else:
                 low = mid +1
-
+    return -1
 arr = [10,15,20, 20, 40, 40]
-x =40
+x =400
 print(last_occur(arr, x))
