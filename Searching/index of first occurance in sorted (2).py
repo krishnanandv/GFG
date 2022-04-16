@@ -1,5 +1,5 @@
 #Naive Solution
-# Display the firat occurance of the number in the given sorted array
+# Display the first occurance of the number in the given sorted array
 # If element not present then return -1
 
 def naive_find_first_occur(arr, x):
