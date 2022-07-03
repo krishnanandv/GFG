@@ -15,7 +15,7 @@ print(naive(arr,num))
 def two_pointer(arr, num):
     i=0
     n=len(arr)-1
-    while(i!=len(arr)-1):
+    while(i<n):
         if((arr[i]+arr[n])==num):
             return(arr[i],arr[n])
         elif((arr[i]+arr[n])<num):
