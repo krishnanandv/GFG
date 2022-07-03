@@ -14,6 +14,7 @@ print(naive(arr,num))
 
 #Sum Pairs 
 def two_pointer(arr, num):
+    arr.sort()
     i=0
     n=len(arr)-1
     while(i<n):
