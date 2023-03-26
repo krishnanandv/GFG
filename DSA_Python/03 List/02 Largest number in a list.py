@@ -1,4 +1,6 @@
 def large_num(arr):
+    if not arr:
+        return None
     large = arr[0]
     if len(arr) > 1 :
         for elem in arr:
