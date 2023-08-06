@@ -1,6 +1,12 @@
-def avg_of_list(arr):
-    return (sum(arr)/len(arr))
+li = [30, 60, 40]
 
 
-arr = [10, 20, 30, 40]
-print(avg_of_list(arr))
+def averrage_fun(arr):
+    sum = 0
+    for item in arr:
+        sum += item
+    n = len(arr)
+    return sum / n
+
+
+print(averrage_fun(li))
