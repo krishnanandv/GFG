@@ -5,3 +5,6 @@ print(d1)
 d2 = {x:f"ID{x}" for x in range(5)}
 print(d2)
 
+l3 = ['gfg','kkk','fff','ttt','fvfv']
+d3 = dict(zip(li,l3))
+print(d3)
